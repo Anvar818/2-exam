@@ -1,0 +1,98 @@
+html{
+    box-sizing: border-box;
+}
+*, 
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+body{
+    font-size: 15px;
+    background: #EDF3F8;
+    color: #6C8294;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.visually-hidden{
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 165px;
+    margin: auto;
+}
+
+
+// button styles
+.btn{
+
+    
+    text-decoration: none;
+    background: #BA4270;
+    color: #FBFCFE;
+    padding: 15px 25px;
+    border-radius: 24px;
+  
+
+   
+    
+}
+
+.btn:hover{
+    text-decoration: none;
+    background: #DA6D97;
+    color: #FBFCFE;
+    padding: 15px 25px;
+    border-radius: 24px;
+  
+}
+
+
+
+@media screen and (max-width:768px){
+    .container{
+        padding: 0 40px;
+    }
+
+    .btn{
+
+    
+        text-decoration: none;
+        background: #BA4270;
+        color: #FBFCFE;
+        padding: 15px 25px;
+        border-radius: 24px;
+      
+    
+       
+        
+    }
+}
+
+@media screen and (max-width:500px){
+    .container{
+        padding: 0 40px;
+    }
+
+    .btn{
+
+    
+        text-decoration: none;
+        background: #BA4270;
+        color: #FBFCFE;
+        padding: 15px 25px;
+        border-radius: 24px;
+      
+    
+       
+        
+    }
+}

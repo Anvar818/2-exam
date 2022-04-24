@@ -1,0 +1,143 @@
+.implement{
+
+    &__div{
+        display: flex;
+    }
+    
+    &__right{
+        width: 50%;
+        padding-top: 75px;
+        padding-left: 5px;
+    }
+
+    &__title{
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+
+        letter-spacing: -0.369231px;
+
+        color: #36536B;
+    }
+    
+    &__description{
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        width: 100%;
+        padding-right: 25px;
+
+
+        color: #6C8294;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .implement{
+
+        &__div{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__right{
+            width: 100%;
+            padding-top: 0;
+            margin-top: -65px;
+            // padding-left: 5px;
+        }
+    
+        &__title{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 46px;
+            width: 100%;
+            text-align: center;
+            margin-left: -25px;
+            // padding-left: 100px;
+            // letter-spacing: -0.369231px;
+    
+            color: #36536B;
+        }
+        
+        &__description{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            // width: 100%;
+            // padding-right: 25px;
+            text-align: center;
+    
+    
+            color: #6C8294;
+        }
+        &__img{
+            width: 391.73px;
+           margin-left: 130px;
+           height: 250px;
+        }
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .implement{
+
+        &__div{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__right{
+            width: 100%;
+            padding-top: 0;
+            margin-top: -65px;
+            // padding-left: 5px;
+        }
+    
+        &__title{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 46px;
+            width: 100%;
+            text-align: center;
+            margin-left: -25px;
+            // padding-left: 100px;
+            // letter-spacing: -0.369231px;
+    
+            color: #36536B;
+        }
+        
+        &__description{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            // width: 100%;
+            // padding-right: 25px;
+            text-align: center;
+    
+    
+            color: #6C8294;
+        }
+        &__img{
+            width: 391.73px;
+           margin-left: 20px;
+           height: 250px;
+        }
+    }
+    
+}

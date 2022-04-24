@@ -1,0 +1,194 @@
+.types{
+    &__first{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    &__title{
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height, or 139% */
+
+        text-align: center;
+        letter-spacing: -0.138462px;
+
+        color: #36536B;
+    }
+
+    &__img{
+        margin-left:125px ;
+    }
+
+    &__description{
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+
+        text-align: center;
+        letter-spacing: -0.115385px;
+
+        color: #6C8294;
+    }
+
+    &__second{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title2{
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        /* identical to box height, or 117% */
+
+        letter-spacing: -0.369231px;
+
+        color: #36536B;
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    .types{
+        &__first{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            
+            gap: 40px;
+        }
+    
+        &__title{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            /* identical to box height, or 139% */
+    
+            text-align: center;
+            letter-spacing: -0.138462px;
+    
+            color: #36536B;
+        }
+    
+        &__img{
+           margin-left: 270px  ;
+        }
+    
+        &__description{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            /* or 167% */
+    
+            text-align: center;
+            letter-spacing: -0.115385px;
+    
+            color: #6C8294;
+        }
+    
+        &__second{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        &__title2{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            /* identical to box height, or 117% */
+    
+            letter-spacing: -0.369231px;
+    
+            color: #36536B;
+        }
+        
+        
+    }
+}
+
+@media screen and (max-width: 500px){
+    .types{
+        &__first{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            
+            gap: 40px;
+        }
+    
+        &__title{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            /* identical to box height, or 139% */
+    
+            text-align: center;
+            letter-spacing: -0.138462px;
+    
+            color: #36536B;
+        }
+    
+        &__img{
+           margin-left: 150px  ;
+        }
+    
+        &__description{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            /* or 167% */
+    
+            text-align: center;
+            letter-spacing: -0.115385px;
+    
+            color: #6C8294;
+        }
+    
+        &__second{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        &__title2{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            /* identical to box height, or 117% */
+    
+            letter-spacing: -0.369231px;
+    
+            color: #36536B;
+        }
+        
+        
+    }
+}

@@ -1,0 +1,184 @@
+.simple{
+    &__div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left{
+        width: 100%;
+        margin-top: 175px;
+    }
+
+    &__title{
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        /* identical to box height, or 117% */
+
+        letter-spacing: -0.369231px;
+
+        color: #36536B;
+    }
+
+    &__description{
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        /* or 187% */
+
+
+        color: #6C8294;
+    }
+
+    &__right{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+        
+
+       
+    }
+    &__img{
+        margin-right: -100px;
+    }
+    
+
+   
+}
+
+@media screen and (max-width: 768px){
+    
+
+    .simple{
+        &__div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+        }
+    
+        &__left{
+            width: 100%;
+            margin-top: 175px;
+        }
+    
+        &__title{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            /* identical to box height, or 117% */
+            text-align: center;
+            letter-spacing: -0.369231px;
+            margin-top: -150px;
+            color: #36536B;
+        }
+    
+        &__description{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            /* or 187% */
+            text-align: center;
+            width: 100%;
+            color: #6C8294;
+        }
+    
+        &__right{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            // margin-left: 100px;
+            margin: auto;
+            
+    
+           
+        }
+        &__img{
+            margin-left: 1px;
+            // margin-right: -100px;
+        }
+        
+    
+       
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+
+    .simple{
+        &__div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+        }
+    
+        &__left{
+            width: 100%;
+            margin-top: 175px;
+        }
+    
+        &__title{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            /* identical to box height, or 117% */
+            text-align: center;
+            letter-spacing: -0.369231px;
+            margin-top: -150px;
+            color: #36536B;
+        }
+    
+        &__description{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            /* or 187% */
+            text-align: center;
+            width: 100%;
+            color: #6C8294;
+        }
+    
+        &__right{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            // flex-direction: column;
+            // margin-left: 100px;
+            margin: auto;
+            padding: 0 24px;
+            
+    
+           
+        }
+        &__img{
+            // margin-right: -100px;
+            width: 152px;
+            height: 290px;
+        }
+        &__img2{
+            width: 152px;
+            height: 290px;
+        }
+        
+
+        
+        
+    
+       
+    }
+}
